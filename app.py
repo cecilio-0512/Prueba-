@@ -1,24 +1,8 @@
 ####################################################Paqueterías a usar ##########################
 
 import pandas as pd
-from sklearn.model_selection import train_test_split
-from sklearn.impute import SimpleImputer
 import numpy as np
 import streamlit as st
-
-
-
-from sklearn.compose import ColumnTransformer
-from sklearn.preprocessing import OneHotEncoder, StandardScaler
-
-from sklearn.linear_model import LogisticRegression
-from sklearn.model_selection import GridSearchCV, StratifiedKFold
-
-from sklearn.metrics import (
-    roc_auc_score, accuracy_score, f1_score, precision_score, recall_score,
-    log_loss, confusion_matrix, classification_report, roc_curve
-)
-
 import matplotlib.pyplot as plt
 
 
