@@ -24,7 +24,7 @@ import matplotlib.pyplot as plt
 
 # --- Leer archivo Excel ---
 ecomm = pd.read_excel(
-    "/Users/adrianmartinez/Documents/Prueba_volaris/Modelos_ML/E Commerce Dataset.xlsx",
+    "E Commerce Dataset.xlsx",
     sheet_name="E Comm"
 )
 
@@ -182,7 +182,7 @@ st.latex(r"\sum_{i=1}^{n} \left(Y_i - (\beta_0 + \beta_1 X_i)\right)^2")
 
 # Ilustración: regresión lineal simple
 st.image(
-    "/Users/adrianmartinez/Documents/Prueba_volaris/Modelos_ML/maxresdefault.png",   
+    "maxresdefault.png",   
     caption="Regresión lineal simple: línea de mejor ajuste minimizando la suma de residuos al cuadrado.",
     use_container_width=True
 
@@ -227,7 +227,7 @@ sino que también ayuda a identificar las características más relevantes en la
 st.markdown("### ⚙️ Entrenamiento del modelo")
 
 st.image(
-    "/Users/adrianmartinez/Documents/Prueba_volaris/Modelos_ML/entrenamiento.png",   
+    "entrenamiento.png",   
     caption="Regresión lineal simple: línea de mejor ajuste minimizando la suma de residuos al cuadrado.",
     use_container_width=True
 
